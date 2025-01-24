@@ -4,6 +4,35 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Foster.ImGUI</Title>
+    <Description>An ImGUI wrapper for the Foster Framework!</Description>
+    <PackageProjectUrl>https://github.com/akaadream/Foster.ImGUI</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/akaadream/Foster.ImGUI</RepositoryUrl>
+    <PackageReleaseNotes>First version of Foster.ImGUI</PackageReleaseNotes>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>Foster;ImGUI</PackageTags>
+    <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ImGui.NET" Version="1.91.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Foster\Framework\Foster.Framework.csproj" />
+  </ItemGroup>
 
 </Project>
