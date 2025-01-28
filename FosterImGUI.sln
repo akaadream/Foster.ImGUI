@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FosterImGUI", "FosterImGUI\FosterImGUI.csproj", "{57C0F5CB-9CC6-4FED-B42E-724EEA7E7102}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foster.Framework", "..\Foster\Framework\Foster.Framework.csproj", "{04A6878D-A6B5-42A8-8084-DEB0DB3AC179}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{57C0F5CB-9CC6-4FED-B42E-724EEA7E7102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57C0F5CB-9CC6-4FED-B42E-724EEA7E7102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57C0F5CB-9CC6-4FED-B42E-724EEA7E7102}.Release|Any CPU.Build.0 = Release|Any CPU
-		{04A6878D-A6B5-42A8-8084-DEB0DB3AC179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04A6878D-A6B5-42A8-8084-DEB0DB3AC179}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04A6878D-A6B5-42A8-8084-DEB0DB3AC179}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04A6878D-A6B5-42A8-8084-DEB0DB3AC179}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

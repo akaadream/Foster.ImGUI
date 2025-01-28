@@ -4,14 +4,12 @@ The famous ImGUI library ready to use in your Foster project!
 
 ## Installation
 
-The easiest solution to add Foster.ImGUI into your project is using NuGeT: 
+The easiest solution to add Foster.ImGUI into your project is using NuGeT: https://www.nuget.org/packages/FosterImGUI/1.0.1
 ```
-dotnet add package FosterImGUI --version 1.0.0
+dotnet add package FosterImGUI --version 1.0.1
 ```
 
 Or you can install it by cloning the repository, adding the .csproj to your solution and adding it as a project reference.
-
-> Note that this library is only compatible using the refactored version of Foster (.NET9 and SDL3).
 
 ## Usage
 
